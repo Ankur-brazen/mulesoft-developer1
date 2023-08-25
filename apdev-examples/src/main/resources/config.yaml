@@ -1,0 +1,17 @@
+http:
+  port: "8081"
+  
+sfdc:
+  username: "ankur@brazen.group"
+  password: "Boss2082@"
+  token: "qxKIWY6xmaZNSXsFkPyPBR89"
+  
+file:
+  accountsDir: "C:/mulesoftsoftware/APDevFundamentals_studentFiles_SP_04may2023/resources"
+  
+db:
+  host: "mudb.learn.mulesoft.com"
+  port: "3306"
+  user: "mule"
+  password: "mule"
+  database: "training"
