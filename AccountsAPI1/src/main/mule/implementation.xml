@@ -28,6 +28,7 @@ payload map ( payload01 , indexOfPayload01 ) -> {
 }]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
+		<logger level="INFO" doc:name="Logger" doc:id="15b111e3-5202-44f1-a75e-f828248c6d2a" message="Completing the main accounts "/>
 	</flow>
 	<flow name="accountsbyID" doc:id="42a9adfd-eaf5-4f2a-afae-ab45a01c3422" >
 		<db:select doc:name="Select" doc:id="dff14324-297d-43b3-9b9e-2f1fde6c8d62" config-ref="Database_Config">
